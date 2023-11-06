@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
     res.statusCode  = 200;
     res.setHeader = ('content-Type', 'text/html');
     res.end('<h1>This is the server created by Node.js</h1>');
-    console.log('Hello from Jenkins!');
+    console.log('Hello Jenkins!');
 });
 
 // step 5: 啟動與監聽server
